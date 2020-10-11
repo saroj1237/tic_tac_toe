@@ -1,6 +1,12 @@
-button{
-  height: 40px;
-  width: 40px;
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+  background-color: gray;
+  text-align: center;
 }
 
-
+.board-Row {
+  margin: 0;
+  display: flex;
+}

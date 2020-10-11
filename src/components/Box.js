@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Box({value, onClick}) {
-return <button onClick={onClick}>{value}</button>;
+function Box({ value, onClick }) {
+  return (
+    <div className="box" onClick={onClick}>
+      {value}
+    </div>
+  );
 }
 
 export default Box;
